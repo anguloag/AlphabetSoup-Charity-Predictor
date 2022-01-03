@@ -1,1 +1,1 @@
-# Deep-Learning-Challenge
+# Alphabet Soup Charity Predictor
