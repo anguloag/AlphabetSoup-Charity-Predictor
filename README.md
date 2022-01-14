@@ -52,6 +52,6 @@ Despite these attempts to improve its performance, none of the models were able 
 
 Though the second attempt at optimization had the highest accuracy score of 0.7307, none of the modifications made were able to produce a model with 75% accuracy in predicting whether an applicant will be successful if provided funding from Alphabet Soup. Including more data, preprocessing the data differently, and/or continued testing for optimal hyperparameters (possibly with an automated process using KerasTuner) may result in an improved model. However, an alternative to this could be instead using a Logistic Regression model, which are commonly used for binary classification and would likely take less time to train and less processing power to run. Future analyses should compare the current neural network model with a Logistic Regression model to see which would be best to use.
 
-##### Contact
+## Contact
 
-Angela Angulo -- anguloag@vcu.edu
+**Angela Angulo** -- anguloag@vcu.edu
