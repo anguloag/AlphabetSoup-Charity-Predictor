@@ -29,7 +29,7 @@ The variables determined as neither targets nor features and removed from the in
 
 The original attempt to build the neural network model achieved a predictive accuracy score of 0.7299, failing to reach the desired target of 75%. 
 
-[INSERT IMAGE]
+![OriginalResults](/Images/OriginalResults.png)
 
 Three attempts were made to improve the model’s performance:
 - _Optimization Attempt #1_ focused on reevaluating the input data and adjusting the model’s features, which reduced the number of features upon transformation from 43 to 32. The modifications resulted in a slightly increased accuracy score of 0.7304 and were thus kept in place for later attempts. Changes that were made include:
@@ -42,7 +42,7 @@ Three attempts were made to improve the model’s performance:
 -- Increasing the number of nodes in the first and second layers from 80 to 250 and from 30 to 125, respectively
 - _Optimization Attempt #3_ focused on the activation functions for the hidden layers. Changing the activation from ReLU to tanh decreased the accuracy score to 0.7285. Adjusting the number of epochs to the training regime did not improve this score, and thus was ultimately set at 100 similar to previous attempts. 
 
-[INSERT IMAGE]
+![OptimizationResults](/Images/OptimizationResults.png)
 
 Despite these attempts to improve its performance, none of the models were able to reach the desired target accuracy of 75%. The model with the best performance, Optimized Model #2, achieved a 0.7307 predictive accuracy. It contained 32 input features, three hidden layers with 250, 125, and 75 neurons respectively (chosen after testing various combinations for the number of layers and nodes) and using the ReLU activation function (most commonly used for classification models), and an output layer with one unit and relying on the Sigmoid activation function (necessary parameters for predicting binary classification). 
 
